@@ -9,7 +9,7 @@ const Navbar = () => (
       <div className='app__navbar-logo' >
       <img src={images.gericht} alt="app-logo" />
       </div>
-      <ul className='app__navbar--links'>
+      <ul className='app__navbar-links'>
         <li className='p__opensans'> <a href="#home">Home</a> </li>
         <li className='p__opensans'> <a href="#about">about</a> </li>
         <li className='p__opensans'> <a href="#menu">menu</a> </li>
