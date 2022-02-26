@@ -3,6 +3,8 @@
 }
 .app__header__h1 {
     font-family: var(--font-base);
+
+    
     color: var(--color-golden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
