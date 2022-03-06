@@ -7,9 +7,34 @@ import './SpecialMenu.css';
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id='menu'>
     <div className="app__spetialMenu-title">
-      <SubHeading title='Menu That Fits Your Paalatte'/>
+      <SubHeading title='Menu That Fits Your Palette'/>
       <h1 className='headtext__cormorant'>Today's Special</h1>
     </div>
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_wine flex__center">
+        <p className="app__specialMenu-menu_heading ">
+          Wine & Beer
+        </p>
+          <div className="app__specialMenu-menu_items">
+            {data.wines.map((wine, index)  => (<p>{wine.title}</p>))}
+          </div>
+      </div>
+    <div className="app__specialMenu-menu_img">
+      <img src={images.menu} alt="menu-img" />
+    </div>
+
+    <div className="app__specialMenu-menu_cocktail flex__center">
+        <p className="app__specialMenu-menu_heading ">
+          Cocktail
+        </p>
+          <div className="app__specialMenu-menu_items">
+            {data.cocktails.map((cocktail, index)  => (<p>{cocktail.title}</p>))}
+          </div>
+      </div>
+    </div>
+    <div >
+        <button className='custom__button' type='button'>View More</button>
+      </div>
   </div>
 );
 
