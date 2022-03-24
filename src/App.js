@@ -12,11 +12,13 @@ const App = () => {
         <AboutUs />
         <SpecialMenu />
         <Chef />
+        <Intro />
+        <Laurels />
         <FindUs/>
         <Footer />
         <Gallery />
-        <Intro />
-        <Laurels />
+        
+        
         
 
     </div>
