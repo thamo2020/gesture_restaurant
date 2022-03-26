@@ -14,9 +14,10 @@ const App = () => {
         <Chef />
         <Intro />
         <Laurels />
+        <Gallery />
         <FindUs/>
         <Footer />
-        <Gallery />
+       
         
         
         
